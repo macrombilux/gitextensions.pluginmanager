@@ -28,18 +28,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="GitUI">
-      <HintPath>$(GitExtensionsPath)\GitUI.dll</HintPath>
-    </Reference>
-    <Reference Include="GitUIPluginInterfaces">
-      <HintPath>$(GitExtensionsPath)\GitUIPluginInterfaces.dll</HintPath>
-    </Reference>
-    <Reference Include="ResourceManager">
-      <HintPath>$(GitExtensionsPath)\ResourceManager.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\PackageManager.UI\PackageManager.UI.csproj" ReferenceOutputAssembly="false" />
   </ItemGroup>
 
